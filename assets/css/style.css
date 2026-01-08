@@ -65,3 +65,14 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.hero-logo{
+  width: 100%;
+  max-width: 240px;
+}
+
+@media (min-width: 992px){
+  .hero-logo{
+    max-width: 280px;
+  }
+}
